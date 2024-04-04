@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+
+.weather-container ,h1 {
+    text-align: center;
+    background-color: lightblue;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 45px;
+}
+
+#temperature {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+}
